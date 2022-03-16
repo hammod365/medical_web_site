@@ -1,0 +1,417 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link{
+    background-color: gold;
+    width: 100px;
+    height: 4px;
+  
+ 
+}
+
+header{
+    background-color: rgba(2, 71, 71, 0.678);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.navbar{
+   padding: 10px 10px;
+}
+ .navbar li{ 
+     padding: 10px 10px;
+    display: inline-block;
+    list-style: none;
+    border-radius: 50%;
+   font-weight: bold;
+}
+.navbar a {
+    text-decoration: none;
+    color: azure;
+    
+}
+a:hover{
+    color: rgb(230, 102, 155);
+   
+ 
+}
+.onepart{
+    width:100%;
+     height: 100vh;
+     display: flex;
+     background-image:url(img/bg-banner.jpg)  ;
+     background-position: center;
+     background-size: cover;
+    
+}
+.onesec{
+    width: auto;
+    height: auto;
+    border: solid 2px white;
+    padding: 10px 10px;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.onesec a{ 
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 241, 241);
+}
+
+.linee{
+    background-color:black;
+    width: 192px;
+    height: 4px;
+
+
+}
+
+
+
+.towpart{  
+    margin:20px auto;
+    width: 80%;
+   height:auto;
+   display: flex;
+   text-align:start;
+   justify-content: center;
+}
+
+.whitee{
+color: white;
+
+
+}
+.threepart{   
+    color: whitesmoke;
+    width: 80%;
+    margin: 20px auto;
+   height:auto;
+   display: flex;
+   text-align:start;
+   justify-content: center;
+   background-color: rgb(8, 151, 151);
+   border: 8px double black;
+}
+.threepart div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-left:solid 2px whitesmoke ;
+    padding: 20px 10px;
+}
+.threepart a{
+    padding: 3px 3px;
+    border: 1px solid black;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: rgb(6, 241, 241);
+    
+}
+
+.fourpart{ 
+    padding: 10px 10px;  
+    color: whitesmoke;
+    width: 80%;
+    margin: 20px auto;
+  height: 30vh;
+   display: flex;
+   text-align:center;
+   justify-content: center;
+   background-color: rgb(8, 151, 151);
+}
+.fourpart div{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+.fivepart{
+      margin: 20px auto;
+        width: 80;
+        display: flex;
+        color: #cf4615;
+        justify-content: center;
+    align-items: flex-start;
+}
+.fivepart h2{
+    color: rgb(138, 187, 206);
+
+}
+.fivepart div{
+    border: solid 1px rgba(192, 178, 178, 0.925);
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+.iop{
+    color: rgb(138, 187, 206);
+    font-family: initial;
+    }
+
+.hmg{
+    width: 100%;
+    height: auto;
+  
+}
+
+
+h2{
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3::first-line{
+    background-color: #325C6A;
+}
+
+.sexpart{
+    color: whitesmoke;
+    width: 100%;
+    margin: 10px auto;
+   height:auto;
+   display: flex;
+   text-align:start;
+   justify-content: center;
+   background-color: #325C6A;
+}
+.sexpart div{
+    border: solid 1px darkgrey;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sevenpart div h2{
+    font-family: initial;
+
+}
+.sevenpart{
+    margin: 20px auto;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  
+    border: solid 1px rgba(2, 71, 71, 0.678); 
+}
+.sevenpart div{
+   
+width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.eightpart{
+    margin: 20px auto;
+    width: 100%;
+    height:320px;
+ 
+}
+
+
+/* Begin Contact us*/
+.parent{
+    display: flex;
+    width: 80%;
+ 
+}
+
+.c1{
+height: 100px;
+margin: 10px;
+
+}
+.c1:nth-child(1){
+ width:25%;
+ color: #ccc;
+ margin: 10px auto;
+}
+.c1:nth-child(2){
+ width:50%;
+}
+.c1 .ipt{
+    width: 100%;
+    height: 24px;
+}
+
+.font-size{
+padding-bottom: 20px;
+font-family: initial;
+}
+
+.non{
+    width: 100%;
+height: 40px;
+}
+
+.bink{
+    background-color: #0cb8b6;
+    color: #fff;
+    border-radius: 0px;
+    padding: 10px 20px;
+}
+
+/* End Contact us*/
+
+.viduos{
+background-color: #fff;
+margin-left: 100px;
+
+}
+
+
+/* Begin footer*/
+#footer{
+    background-color: #325C6A;
+color: white;
+}
+
+
+.order{
+
+
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+font-family: 'Open Sans', sans-serif;
+line-height: 20px;
+color: white;
+font-size: 16px;
+box-sizing: border-box;
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+float: left;
+width: 33.33333333%;
+
+
+}
+
+.order1{
+
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+font-family: 'Open Sans', sans-serif;
+line-height: 20px;
+color: white;
+font-size: 16px;
+box-sizing: border-box;
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+float: left;
+width: 33.33333333%;
+
+
+}
+
+
+.History{
+    background-color: #325C6A;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+text-align: center;
+line-height: 20px;
+font-size: 16px;
+box-sizing: border-box;
+padding: 30px 0px;
+color: white;
+margin: 20px auto;
+height: 60px;
+}
+
+.midea{
+color: white;
+
+
+}
+
+.Rudiments{
+
+font-family: 'Open Sans', sans-serif;
+line-height: 20px;
+color: #999999;
+font-size: 16px;
+box-sizing: border-box;
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+float: left;
+width: 33.33333333%;
+
+}
+
+
+.fa{
+
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+
+
+}
+
+
+.maree2:hover{
+    color: red;
+    border: 5px solid green;
+}
+.social-icon li{
+
+float: left;
+width: 50px;
+height: 50px;
+line-height: 50px;
+text-align: center;
+margin-right: 5px;
+background-color: #325C6A;
+list-style-type: none;
+}
+
+
+    @media (max-width:1024px){
+body{
+width: 100%;
+height: 20px;
+padding: 5px;
+margin: auto;
+font-size: 7px;
+border: 1px;
+}
+
+    }
+  
+/* End  footer*/
